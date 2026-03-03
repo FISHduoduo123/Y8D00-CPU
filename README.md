@@ -12,4 +12,7 @@ Minecraft实现基于自创指令集机构设计CPU
 
 # 使用说明
 1.放置计算机
+//解压computer.zip,使用WorldDedit模组放置comuputer.schem蓝图
+2.查看计算机硬件
+![Uploading 49edbeec14ad2f392ca4743bdc22469d.png…]()
 
