@@ -13,7 +13,7 @@
 
 # 使用说明
 1.放置计算机<br>
-&nbsp解压computer.zip,使用WorldDedit模组放置comuputer.schem蓝图<br>
+  解压computer.zip,使用WorldDedit模组放置comuputer.schem蓝图<br>
 2.查看计算机硬件<br>
   ![输入图片说明](image/49edbeec14ad2f392ca4743bdc22469d.png)
 
