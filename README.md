@@ -24,9 +24,9 @@
 #### 2.查看计算机硬件
   计算机放置完成后找到图片中所标注位置:(图中"电"改为"点") <br>
   ![输入图片说明](image/49edbeec14ad2f392ca4743bdc22469d.png) <br>
-  -顺序执行ROM烧录位置，如下图所示(对映programming/rom_1): <br>
+  -顺序执行ROM烧录位置，如下图所示(FlashingTool/ctr_mc_1): <br>
   ![输入图片说明](image/5f67b13486a2ea80a670096f47ea3874.png) <br>
-  -可寻址跳转ROM烧录位置，如下图所示(对应programming/rom_2): <br>
+  -可寻址跳转ROM烧录位置，如下图所示(FlashingTool/ctr_mc_2): <br>
   ![输入图片说明](image/d4dbae94ec82546c7da9384ccd81cde2.png) <br>
    站立到蓝色方块上后，执行烧录程序，即可对其ROM的烧录. <br>
    烧录完毕后旁边可看到白色的房间嵌在计算机内，该房间负责对整个计算机的启动关闭以及运行模式进行控制. <br> 
