@@ -1,0 +1,60 @@
+mov r1 #0 addr_3
+mov r2 #0 addr_3
+mov r3 #1 addr_3
+mov r4 #1 addr_3
+
+
+sub r0 r3 #1 addr_3
+br jz r0 [9]
+sub r1 r1 #1 addr_3
+jp r0 [10]
+add r1 r1 #1 addr_3
+
+sub r0 r1 #10 addr_3
+br jz r0 [13]
+jp r0 [15]
+mov r3 #0 addr_3
+sub r1 r1 #2 addr_3
+
+sub r0 r1 #255 addr_3
+br jz r0 [18]
+jp r0 [20]
+mov r3 #1 addr_3
+add r1 r1 #2 addr_3
+
+
+sub r0 r4 #1 addr_3
+br jz r0 [24]
+sub r2 r2 #1 addr_3
+jp r0 [25]
+add r2 r2 #1 addr_3
+
+sub r0 r2 #8 addr_3
+br jz r0 [28]
+jp r0 [30]
+mov r4 #0 addr_3
+sub r2 r2 #2 addr_3
+
+sub r0 r2 #255 addr_3
+br jz r0 [33]
+jp r0 [35]
+mov r4 #1 addr_3
+add r2 r2 #2 addr_3
+
+
+mov [off:0,154] r1 addr_5
+mov [off:0,155] r2 addr_5
+or r2 r2 #64 addr_3
+mov [off:0,155] r2 addr_5
+or r2 r2 #32 addr_3
+mov [off:0,155] r2 addr_5
+and r2 r2 #31 addr_3
+mov [off:0,155] r2 addr_5
+
+or r2 r2 #64 addr_3
+mov [off:0,155] r2 addr_5
+
+and r2 r2 #31 addr_3
+mov [off:0,155] r2 addr_5
+
+jp r0 [5]
